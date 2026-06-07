@@ -94,7 +94,7 @@ No installation or dependencies required.
 
 ## 👨‍💻 Developer
 
-**Ash Roger**
+**Harshit Sinha**
 
 Developed as part of the NASA Stardance Challenge to explore the intersection of space science, visualization, and modern web development.
 
