@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NASA Stardance | Cosmic Intelligence Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="starfield"></canvas>
+
+<header>
+    <div class="logo">
+        <span class="dot"></span>
+        NASA STARDANCE
+    </div>
+
+    <nav>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#system">Solar System</a>
+        <a href="#missions">Missions</a>
+        <a href="#research">Research</a>
+    </nav>
+</header>
+
+<section class="hero">
+
+    <div class="hero-left">
+        <div class="badge">NASA STARDANCE PARTICIPANT</div>
+
+        <h1>
+            Cosmic
+            Intelligence
+            Portal
+        </h1>
+
+        <p>
+            Explore planetary analytics, mission archives,
+            stellar research and deep-space intelligence
+            through a modern mission control interface.
+        </p>
+
+        <div class="hero-buttons">
+            <button>Launch Explorer</button>
+            <button class="secondary">Mission Archive</button>
+        </div>
+    </div>
+
+    <div class="hero-right">
+
+        <div class="glass stat-card">
+            <h3>UTC TIME</h3>
+            <div id="utcClock">00:00:00</div>
+        </div>
+
+        <div class="glass stat-card">
+            <h3>KNOWN EXOPLANETS</h3>
+            <div id="planetCounter">0</div>
+        </div>
+
+        <div class="glass stat-card">
+            <h3>ACTIVE MISSIONS</h3>
+            <div id="missionCounter">0</div>
+        </div>
+
+        <div class="glass stat-card">
+            <h3>GALAXIES OBSERVED</h3>
+            <div id="galaxyCounter">0</div>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="dashboard" class="dashboard">
+
+    <h2>Mission Control Dashboard</h2>
+
+    <div class="dashboard-grid">
+
+        <div class="glass panel">
+            <h3>Deep Space Coverage</h3>
+            <div class="bar">
+                <div class="fill" style="width:92%"></div>
+            </div>
+            <span>92%</span>
+        </div>
+
+        <div class="glass panel">
+            <h3>Signal Integrity</h3>
+            <div class="bar">
+                <div class="fill" style="width:88%"></div>
+            </div>
+            <span>88%</span>
+        </div>
+
+        <div class="glass panel">
+            <h3>Orbital Tracking</h3>
+            <div class="bar">
+                <div class="fill" style="width:96%"></div>
+            </div>
+            <span>96%</span>
+        </div>
+
+        <div class="glass panel">
+            <h3>Research Progress</h3>
+            <div class="bar">
+                <div class="fill" style="width:84%"></div>
+            </div>
+            <span>84%</span>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="system" class="solar-section">
+
+    <h2>Solar System Analytics</h2>
+
+    <div class="planet-grid">
+
+        <div class="planet-card">
+            <div class="planet mercury"></div>
+            <h3>Mercury</h3>
+            <p>Diameter: 4,879 km</p>
+            <p>Gravity: 3.7 m/s²</p>
+        </div>
+
+        <div class="planet-card">
+            <div class="planet venus"></div>
+            <h3>Venus</h3>
+            <p>Diameter: 12,104 km</p>
+            <p>Gravity: 8.87 m/s²</p>
+        </div>
+
+        <div class="planet-card">
+            <div class="planet earth"></div>
+            <h3>Earth</h3>
+            <p>Diameter: 12,742 km</p>
+            <p>Gravity: 9.8 m/s²</p>
+        </div>
+
+        <div class="planet-card">
+            <div class="planet mars"></div>
+            <h3>Mars</h3>
+            <p>Diameter: 6,779 km</p>
+            <p>Gravity: 3.71 m/s²</p>
+        </div>
+
+        <div class="planet-card">
+            <div class="planet jupiter"></div>
+            <h3>Jupiter</h3>
+            <p>Diameter: 139,820 km</p>
+            <p>Gravity: 24.79 m/s²</p>
+        </div>
+
+        <div class="planet-card">
+            <div class="planet saturn"></div>
+            <h3>Saturn</h3>
+            <p>Diameter: 116,460 km</p>
+            <p>Gravity: 10.44 m/s²</p>
+        </div>
+
+        <div class="planet-card">
+            <div class="planet uranus"></div>
+            <h3>Uranus</h3>
+            <p>Diameter: 50,724 km</p>
+            <p>Gravity: 8.69 m/s²</p>
+        </div>
+
+        <div class="planet-card">
+            <div class="planet neptune"></div>
+            <h3>Neptune</h3>
+            <p>Diameter: 49,244 km</p>
+            <p>Gravity: 11.15 m/s²</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="missions" class="missions">
+
+    <h2>Mission Archive</h2>
+
+    <div class="mission-grid">
+
+        <div class="glass mission">
+            <h3>Apollo Program</h3>
+            <p>Human exploration of the Moon.</p>
+        </div>
+
+        <div class="glass mission">
+            <h3>Voyager</h3>
+            <p>Interstellar exploration mission.</p>
+        </div>
+
+        <div class="glass mission">
+            <h3>Hubble Telescope</h3>
+            <p>Deep universe observations.</p>
+        </div>
+
+        <div class="glass mission">
+            <h3>James Webb</h3>
+            <p>Infrared astronomy revolution.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="research" class="research">
+
+    <h2>Research Center</h2>
+
+    <div class="research-grid">
+
+        <div class="glass research-card">
+            <h3>Black Holes</h3>
+            <p>Regions of extreme spacetime curvature.</p>
+        </div>
+
+        <div class="glass research-card">
+            <h3>Dark Matter</h3>
+            <p>Invisible mass shaping galaxies.</p>
+        </div>
+
+        <div class="glass research-card">
+            <h3>Neutron Stars</h3>
+            <p>Ultra-dense stellar remnants.</p>
+        </div>
+
+        <div class="glass research-card">
+            <h3>Supernovae</h3>
+            <p>Explosive deaths of massive stars.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+    NASA Stardance Challenge | Cosmic Intelligence Portal
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
